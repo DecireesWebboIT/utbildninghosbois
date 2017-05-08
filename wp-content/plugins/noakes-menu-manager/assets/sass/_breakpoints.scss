@@ -1,0 +1,12 @@
+$tablet: 782px;
+
+@mixin bp($size)
+{
+	@if $size == up-to-tablet
+	{
+    	@media (max-width: $tablet)
+		{
+			@content;
+		}
+	}
+}

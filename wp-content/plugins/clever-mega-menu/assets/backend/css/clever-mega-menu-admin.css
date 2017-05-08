@@ -1,0 +1,58 @@
+.clever-mega-menu-admin h2.welcome-page-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.clever-mega-menu-admin p.description {
+  color: #999;
+  clear: both;
+  font-size: 13px !important;
+  font-style: normal;
+}
+
+.clever-mega-menu-admin span.description {
+  color: #999;
+  clear: both;
+  font-size: 13px !important;
+  font-style: normal;
+}
+
+.clever-mega-menu-admin tr {
+  border-bottom: 1px solid #efefef;
+  z-index: 1;
+}
+
+.clever-mega-menu-admin tr.last-row {
+  border: 0;
+}
+
+.clever-mega-menu-admin th.heading {
+  font-size: 16px;
+  padding: 50px 0px 10px 0px !important;
+}
+
+.clever-mega-menu-admin td {
+  overflow: visible;
+}
+
+.clever-mega-menu-admin td.row-label {
+  font-weight: 500;
+  width: 30%;
+}
+
+.clever-mega-menu-admin td .wp-color-result {
+  margin-bottom: 0;
+}
+
+.clever-mega-menu-admin textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+.clever-mega-menu-admin .welcome-panel .dashicons {
+  line-height: 16px;
+}
+
+.clever-mega-menu-admin .clever-mega-menu-export-form .option-field {
+  margin: 1em 0;
+}

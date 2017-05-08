@@ -1,0 +1,415 @@
+# Translation of Plugins - AddToAny Share Buttons - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - AddToAny Share Buttons - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-01-29 11:55:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - AddToAny Share Buttons - Stable (latest release)\n"
+
+#: addtoany.admin.php:628
+msgid "Display at the %s of media pages"
+msgstr "Visa vid %s på mediasidor"
+
+#. Description of the plugin/theme
+msgid "Share buttons for your pages including AddToAny's universal sharing button, Facebook, Twitter, Google+, Pinterest, WhatsApp and many more."
+msgstr "Delningsnappar för dina sidor inklusive AddToAnys universella delningsknapp, Facebook, Twitter, Google+, Pinterest, WhatsApp och många fler."
+
+#: addtoany.admin.php:709
+msgid "Height"
+msgstr "Höjd"
+
+#: addtoany.admin.php:707
+msgid "Width"
+msgstr "Bredd"
+
+#. Plugin Name of the plugin/theme
+msgid "AddToAny Share Buttons"
+msgstr "AddToAny delningsknappar"
+
+#: addtoany.admin.php:688
+msgid "Below you can add special CSS code for AddToAny."
+msgstr "Nedan kan du lägga speciell CSS-kod för AddToAny."
+
+#: addtoany.admin.php:685
+msgid "Additional CSS"
+msgstr "Additional CSS"
+
+#: addtoany.admin.php:668
+msgid "Additional JavaScript"
+msgstr "Ytterligare javascript"
+
+#. #-#-#-#-#  tmp-add-to-any.pot (AddToAny Share Buttons 1.7.7)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  tmp-add-to-any.pot (AddToAny Share Buttons 1.7.7)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://www.addtoany.com/"
+msgstr "https://www.addtoany.com/"
+
+#: addtoany.widgets.php:208
+msgid "%s ID:"
+msgstr "%s ID:"
+
+#: addtoany.widgets.php:208
+msgid "%s URL:"
+msgstr "%s URL:"
+
+#: addtoany.widgets.php:92 addtoany.widgets.php:218
+msgid "AddToAny Settings"
+msgstr "AddToAny Inställningar"
+
+#: addtoany.widgets.php:88 addtoany.widgets.php:202
+msgid "Title:"
+msgstr "Titel:"
+
+#: addtoany.admin.php:1126
+msgid "Add/Remove Services"
+msgstr "Lägg till/Ta bort funktioner"
+
+#: addtoany.admin.php:842
+msgid "Search the <a href=\"http://wordpress.org/tags/add-to-any\">support forums</a>."
+msgstr "Sök i <a href=\"http://wordpress.org/tags/add-to-any\">supportforumet</a>."
+
+#: addtoany.admin.php:841
+msgid "See the <a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/\">FAQs</a>."
+msgstr "Se mer på <a href=\"http://wordpress.org/extend/plugins/add-to-any/faq/\">FAQ</a>."
+
+#: addtoany.admin.php:840
+msgid "Need support?"
+msgstr "Behöver du support?"
+
+#: addtoany.admin.php:838
+msgid "<a href=\"https://www.addtoany.com/share_save#title=WordPress%20Share%20Plugin%20by%20AddToAny.com&amp;url=http%3A%2F%2Fwordpress.org%2Fplugins%2Fadd-to-any%2F\">Share it</a> and follow <a href=\"https://www.addtoany.com/\">AddToAny</a> on <a href=\"https://www.facebook.com/AddToAny\" target=\"_blank\">Facebook</a> &amp; <a href=\"https://twitter.com/AddToAny\" target=\"_blank\">Twitter</a>."
+msgstr "<a href=\"https://www.addtoany.com/share_save#title=WordPress%20Share%20Plugin%20by%20AddToAny.com&amp;url=http%3A%2F%2Fwordpress.org%2Fplugins%2Fadd-to-any%2F\">Dela</a> och följ <a href=\"https://www.addtoany.com/\">AddToAny</a> på <a href=\"https://www.facebook.com/AddToAny\" target=\"_blank\">Facebook</a> &amp; <a href=\"https://twitter.com/AddToAny\" target=\"_blank\">Twitter</a>."
+
+#: addtoany.admin.php:837
+msgid "<a href=\"https://wordpress.org/support/view/plugin-reviews/add-to-any#postform\" target=\"_blank\">Give it a 5 star rating</a> on WordPress.org."
+msgstr "<a href=\"https://wordpress.org/support/view/plugin-reviews/add-to-any#postform\" target=\"_blank\">Ge 5 stjänor i betyg</a> på WordPress.org."
+
+#: addtoany.admin.php:836
+msgid "Like this plugin?"
+msgstr "Gillar du denna plugin?"
+
+#: addtoany.admin.php:831
+msgid "Reset"
+msgstr "Återställ"
+
+#: addtoany.admin.php:831
+msgid "Are you sure you want to delete all AddToAny options?"
+msgstr "Är du säker på att du vill ta bort alla AddToAny inställningar?"
+
+#: addtoany.admin.php:830
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: addtoany.admin.php:783
+msgid "Horizontal Buttons"
+msgstr "Horisontella knappar"
+
+#: addtoany.admin.php:770 addtoany.admin.php:812
+msgid "Offset"
+msgstr "Marginal"
+
+#: addtoany.admin.php:764 addtoany.admin.php:806
+msgid "Position"
+msgstr "Position"
+
+#: addtoany.admin.php:754 addtoany.admin.php:796
+msgid "Responsiveness"
+msgstr "Responsiv funktion"
+
+#: addtoany.admin.php:748 addtoany.admin.php:790
+msgid "Right docked"
+msgstr "Högerställd"
+
+#: addtoany.admin.php:746 addtoany.admin.php:788
+msgid "Left docked"
+msgstr "Vänsterställd"
+
+#: addtoany.admin.php:741
+msgid "Vertical Buttons"
+msgstr "Vertikala knappar"
+
+#: addtoany.admin.php:739
+msgid "Large icons from your currently selected buttons are displayed in your floating bar(s). 3rd party buttons (Like, Tweet, etc.) are not displayed."
+msgstr "Stora ikoner från dina valda knappar visas i flytande meny(er). Tredjepartsknappar (Gilla, Tweeta, etc.) visas inte."
+
+#: addtoany.admin.php:738
+msgid "AddToAny &quot;floating&quot; share buttons stay in a fixed position even when the user scrolls."
+msgstr "AddToAny &quot;floating&quot; dela-knappar stannar i en fixerad position även om användaren scrollar."
+
+#: addtoany.admin.php:728
+msgid "Most sites should not use this option. By default, AddToAny loads asynchronously and most efficiently. Since many visitors will have AddToAny cached in their browser already, serving AddToAny locally from your site will be slower for those visitors. If local caching is enabled, be sure to set far future cache/expires headers for image files in your <code>uploads/addtoany</code> directory."
+msgstr "De flesta webbplatser bör inte använda det här alternativet. Som standard laddar AddToAny asynkront och mest effektivt. Eftersom många besökare kommer att ha AddToAny cachad lokalt i sin webbläsare redan kommer det att vara långsammare att ladda AddToAny från din webbplats för de besökarna. Om lokal cachning är aktiverad så ska du ange tid för cash och \"expire headers\" satt långt i framtiden för bildfiler i din <code>uploads/addtoany</code> katalog."
+
+#: addtoany.admin.php:725
+msgid "Cache AddToAny locally with daily cache updates"
+msgstr "Cacha AddToAny lokalt med dagliga cache uppdateringar"
+
+#: addtoany.admin.php:720
+msgid "Only disable AddToAny's default stylesheet if you already have the necessary CSS code applied to your AddToAny buttons."
+msgstr "Inaktivera endast AddToAnys standardmall om du redan har skrivit in den nödvändiga CSS-koden för dina AddToAny knappar."
+
+#: addtoany.admin.php:717
+msgid "Use default CSS"
+msgstr "Använd standard CSS"
+
+#: addtoany.admin.php:712
+msgid "Specify the URL of the directory containing your custom icons. For example, a URL of <code>//example.com/blog/uploads/addtoany/icons/custom/</code> containing <code>facebook.png</code> and <code>twitter.png</code>. Be sure that custom icon filenames match the icon filenames in <code>plugins/add-to-any/icons</code>. For AddToAny's Universal Button, select Image URL and specify the URL of your AddToAny universal share icon (<a href=\"#\" onclick=\"document.getElementsByName('A2A_SHARE_SAVE_button_custom')[0].focus();return false\">above</a>)."
+msgstr "Ange webbadressen till den katalog som innehåller dina egna ikoner. Till exempel en URL som <code>//example.com/blog/uploads/addtoany/icons/custom/</code> som innehåller <code>facebook.png</code> och <code>twitter.png</code>. Var noga med dina filnamn för ikoner matchar filnamnen för ikoner i <code>plugins/add-to-any/icons</code>. För AddToAny universiella knapp väljer du bildens URL och ange webbadressen till din AddToAny ikon (<a href=\"#\" onclick=\"document.getElementsByName('A2A_SHARE_SAVE_button_custom')[0].focus();return false\">ovan</a>)."
+
+#: addtoany.admin.php:705
+msgid "Filename extension"
+msgstr "Filändelse"
+
+#: addtoany.admin.php:701
+msgid "Use custom icons. URL:"
+msgstr "Använd egna ikoner. URL:"
+
+#: addtoany.admin.php:697
+msgid "Advanced Options"
+msgstr "Avancerade inställningar"
+
+#: addtoany.admin.php:677 addtoany.admin.php:689
+msgid "Advanced users should explore AddToAny's <a href=\"https://www.addtoany.com/buttons/customize/wordpress\" target=\"_blank\">additional options</a>."
+msgstr "Avancerade användare bör titta på AddToAnys <a href=\"https://www.addtoany.com/buttons/customize/wordpress\" target=\"_blank\">avancerade inställningar</a>."
+
+#: addtoany.admin.php:676
+msgid "Below you can add special JavaScript code for AddToAny."
+msgstr "Här nedanför kan du lägga till speciell JavaScript-kod för AddToAny."
+
+#: addtoany.admin.php:672
+msgid "Paste the code from AddToAny's Menu Styler in the box below!"
+msgstr "Klistra in koden från AddToAnys meny design i rutan nedan!"
+
+#: addtoany.admin.php:662
+msgid "Open Menu Styler"
+msgstr "Öppna menydesign"
+
+#: addtoany.admin.php:662
+msgid "Open the AddToAny Menu Styler in a new window"
+msgstr "Öppna AddToAnys menydesign i ett nytt fönster"
+
+#: addtoany.admin.php:659
+msgid "You can use AddToAny's Menu Styler to customize the colors of your universal share menu. When you're done, be sure to paste the generated code in the <a href=\"#\" onclick=\"document.getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return false\">Additional JavaScript</a> box below."
+msgstr "Du kan använda AddToAnys menydesign för att anpassa färgerna på din universella delameny. När du är klar ska du klistra den genererade koden i rutan <a href=\"#\" onclick=\"document.getElementById('A2A_SHARE_SAVE_additional_js_variables').focus();return false\">Extra JavaScript</a>> nedanför."
+
+#: addtoany.admin.php:656
+msgid "Only show the universal share menu when the user <em>clicks</em> the universal share button"
+msgstr "Visa endast den universala dela-menyn när användaren <em>klickar</em> på den universala dela-knappen."
+
+#: addtoany.admin.php:652
+msgid "Menu Options"
+msgstr "Meny alternativ"
+
+#: addtoany.admin.php:646
+msgid "See <a href=\"widgets.php\" title=\"Theme Widgets\">Widgets</a> and <a href=\"options-general.php?page=addtoany&action=floating\" title=\"AddToAny Floating Share Buttons\">Floating</a> for additional placement options. For advanced placement, see <a href=\"http://wordpress.org/plugins/add-to-any/faq/\">the FAQs</a>."
+msgstr "Se <a href=\"widgets.php\" title=\"Theme Widgets\">widgets</a> och <a href=\"options-general.php?page=add-to-any.php&action=floating\" title=\"AddToAnys flytande dela-knappar\">flytande</a> för ytterligare placeringsalternativ. För avancerad placering se <a href=\"http://wordpress.org/plugins/add-to-any/faq/\">FAQ</a>."
+
+#: addtoany.admin.php:640
+msgid "Display at the %s of %s"
+msgstr "Visa vid %s av %s"
+
+#: addtoany.admin.php:621
+msgid "Display at the %s of pages"
+msgstr "Visa vid %s av sidor"
+
+#: addtoany.admin.php:616
+msgid "Display at the %s of excerpts"
+msgstr "Visa vid %s av inlägg"
+
+#: addtoany.admin.php:609
+msgid "Display at the %s of posts in the feed"
+msgstr "Visa vid %s av poster i flödet"
+
+#: addtoany.admin.php:601
+msgid "Display at the %s of posts on archive pages"
+msgstr "Visa vid %s av poster på arkivsidan"
+
+#: addtoany.admin.php:593
+msgid "Display at the %s of posts on the front page"
+msgstr "Visa vid %s av poster på första sidan"
+
+#: addtoany.admin.php:585
+msgid "Display at the %s of posts"
+msgstr "Visa vid %s av poster"
+
+#: addtoany.admin.php:580 addtoany.admin.php:744 addtoany.admin.php:786
+msgid "Placement"
+msgstr "Placering"
+
+#: addtoany.admin.php:574
+msgid "Share this:"
+msgstr "Dela detta:"
+
+#: addtoany.admin.php:571
+msgid "Sharing Header"
+msgstr "Delningshuvud"
+
+#: addtoany.admin.php:558 addtoany.admin.php:750 addtoany.admin.php:792
+msgid "None"
+msgstr "Ingen"
+
+#: addtoany.admin.php:557
+msgid "This option will disable universal sharing. Are you sure you want to disable universal sharing?"
+msgstr "Detta alternativ stoppar universal delning. Är du säker på att du vill inaktivera universal delning?"
+
+#: addtoany.admin.php:552
+msgid "Text only"
+msgstr "Endast text"
+
+#: addtoany.admin.php:546
+msgid "Image URL"
+msgstr "Bild URL"
+
+#: addtoany.admin.php:505
+msgid "Universal Button"
+msgstr "Universiell knapp"
+
+#: addtoany.admin.php:464
+msgid "Choose the services you want below. &nbsp;Click a chosen service again to remove. &nbsp;Reorder services by dragging and dropping as they appear above."
+msgstr "Välj de tjänster som du vill använda nedan. &nbsp;Klicka på en vald tjänst igen för att ta bort. &nbsp;Ordna tjänster genom att dra och släppa de som de visas ovan."
+
+#: addtoany.admin.php:459
+msgid "Standalone Buttons"
+msgstr "Fristående knappar"
+
+#: addtoany.admin.php:452
+msgid "Custom"
+msgstr "Anpassat"
+
+#: addtoany.admin.php:450
+msgid "Small"
+msgstr "Liten"
+
+#: addtoany.admin.php:448
+msgid "Large"
+msgstr "Stor"
+
+#: addtoany.admin.php:446 addtoany.admin.php:776 addtoany.admin.php:818
+msgid "Icon Size"
+msgstr "Ikonstorlek"
+
+#: addtoany.admin.php:435
+msgid "Floating"
+msgstr "Flytande"
+
+#: addtoany.admin.php:434
+msgid "Standard"
+msgstr "Standard"
+
+#: add-to-any.php:1067 addtoany.admin.php:431
+msgid "AddToAny Share Settings"
+msgstr "AddToAny Delningsinställningar"
+
+#: addtoany.admin.php:404
+msgid "top &amp; bottom"
+msgstr "ovanför &amp; under"
+
+#: addtoany.admin.php:400
+msgid "top"
+msgstr "ovanför"
+
+#: addtoany.admin.php:396
+msgid "bottom"
+msgstr "under"
+
+#: addtoany.admin.php:375
+msgid "Settings saved."
+msgstr "Inställningar sparade."
+
+#: addtoany.admin.php:40
+msgid "Show sharing buttons."
+msgstr "Visa delningsknappar."
+
+#. #-#-#-#-#  tmp-add-to-any.pot (AddToAny Share Buttons 1.7.7)  #-#-#-#-#
+#. Author of the plugin/theme
+#: add-to-any.php:1068 addtoany.admin.php:12
+msgid "AddToAny"
+msgstr "AddToAny"
+
+#: add-to-any.php:1100
+msgid "Settings"
+msgstr "Inställningar"
+
+#: add-to-any.php:1022
+msgid "Unable to create directory %s. Is its parent directory writable by the server?"
+msgstr "Det går inte att skapa katalogen %s. Är den överordnade katalogen skrivbar enligt serverinställningarna?"
+
+#: add-to-any.php:574
+msgid "More&#8230;"
+msgstr "Mer&#8230;"
+
+#: add-to-any.php:573
+msgid "Email program"
+msgstr "E-postprogram"
+
+#: add-to-any.php:572
+msgid "Send from any email address or email program"
+msgstr "Skicka från valfri e-postadress eller e-postprogram"
+
+#: add-to-any.php:571
+msgid "Add to your favorites"
+msgstr "Lägg till i dina favoriter"
+
+#: add-to-any.php:570
+msgid "Press Ctrl+D or \\u2318+D to bookmark this page"
+msgstr "Tryck Ctrl+D eller \\u2318+D för att lägga till denna sida som bokmärke"
+
+#: add-to-any.php:569
+msgid "Bookmark in your browser"
+msgstr "Lägg till som bokmärke i din webbläsare"
+
+#: add-to-any.php:568
+msgid "Subscribe via email"
+msgstr "Prenumerera via e-post"
+
+#: add-to-any.php:567
+msgid "Share via email"
+msgstr "Dela via e-post"
+
+#: add-to-any.php:566
+msgid "Powered by"
+msgstr "Drivs av"
+
+#: add-to-any.php:565
+msgid "Instantly find any service to add to"
+msgstr "Hitta direkt en tjänst att lägga till"
+
+#: add-to-any.php:564
+msgid "Find service(s)"
+msgstr "Hitta tjänst(er)"
+
+#: add-to-any.php:563
+msgid "Show less"
+msgstr "Visa färre"
+
+#: add-to-any.php:562
+msgid "Show all"
+msgstr "Visa alla"
+
+#: add-to-any.php:561
+msgid "Bookmark"
+msgstr "Bokmärk"
+
+#: add-to-any.php:560
+msgid "Email"
+msgstr "E-post"
+
+#: add-to-any.php:559
+msgid "Subscribe"
+msgstr "Prenumerera"
+
+#: add-to-any.php:558
+msgid "Save"
+msgstr "Spara"
+
+#: add-to-any.php:557 addtoany.admin.php:325 addtoany.admin.php:518
+#: addtoany.admin.php:520 addtoany.admin.php:523 addtoany.admin.php:525
+#: addtoany.admin.php:554
+msgid "Share"
+msgstr "Dela"

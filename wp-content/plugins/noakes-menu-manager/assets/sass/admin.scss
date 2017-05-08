@@ -1,0 +1,33 @@
+/*!
+ * Admin Cascading Style Sheet include.
+ * 
+ * @since 1.3.0
+ * 
+ * @package Nav Menu Manager
+ * 
+ */
+
+@import 'breakpoints';
+@import 'colors';
+@import 'mixins';
+
+/* Help Buttons */
+.nmm-help-button.dashicons
+{
+	@include transition-two(color, opacity);
+	display: none;
+	overflow: hidden;
+	vertical-align: text-top;
+	opacity: 0;
+	
+	&:focus
+	{
+		@include box-shadow(none);
+	}
+}
+
+.nmm-meta-box .nmm-help-button.dashicons
+{
+	margin-bottom: -2px;
+	font-size: 20px;
+}

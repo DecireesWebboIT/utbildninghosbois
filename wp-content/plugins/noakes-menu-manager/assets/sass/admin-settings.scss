@@ -1,0 +1,756 @@
+/*!
+ * Admin settings Cascading Style Sheet include.
+ * 
+ * @since 1.3.0
+ * 
+ * @package Nav Menu Manager
+ * 
+ */
+
+@import 'breakpoints';
+@import 'colors';
+@import 'mixins';
+
+/* General */
+abbr[title]
+{
+	border-bottom: 1px dotted $wp-dark-gray;
+	cursor: help;
+}
+
+.pre-4-2 .alternate, .striped > tbody > :nth-child(2n+1)
+{
+	background: $light-gray;
+}
+
+/* Faux Dashicons */
+.faux-dashicons
+{
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	line-height: 1;
+	text-align: center;
+	vertical-align: top;
+	
+	img
+	{
+		margin: 0 !important;
+		display: inline-block;
+		height: auto;
+		max-width: 100%;
+	}
+}
+
+/* Meta Boxes */
+#poststuff .nmm-meta-box
+{
+	.inside
+	{
+		margin: 0;
+		padding: 0;
+	}
+	
+	:focus
+	{
+		@include box-shadow(none);
+	}
+}
+
+/* Fields */
+.nmm-field
+{
+	@include border-box;
+	@include transition-one(background, 100ms);
+	overflow: hidden;
+	background: $white;
+	
+	&:nth-child(odd)
+	{
+		background: $light-gray;
+	}
+	
+	img
+	{
+		margin-top: 6px;
+		height: auto;
+		max-width: 100%;
+	}
+	
+	.robert-noakes
+	{
+		width: 100%;
+		max-width: 257px;
+	}
+	
+	label
+	{
+		display: block;
+	}
+}
+
+.nmm-field-label,
+.nmm-field-input
+{
+	@include border-box;
+	padding: 12px;
+	overflow: hidden;
+}
+
+.nmm-field-label
+{
+	float: left;
+	width: 25%;
+	
+	@include bp(up-to-tablet)
+	{
+		margin-bottom: -12px;
+		padding-bottom: 0;
+		float: none;
+		width: auto;
+	}
+}
+
+#side-sortables .nmm-field-label
+{
+	margin-bottom: -12px;
+	padding-bottom: 0;
+	float: none;
+	width: auto;
+}
+
+.nmm-field-input
+{
+	input,
+	select
+	{
+		margin: 0;
+	}
+	
+	.nmm-error
+	{
+		border: 1px solid #d8000c;
+	}
+
+	> .nmm-error
+	{
+		@include border-box;
+		border: 0;
+		padding: 3px 5px;
+		display: block;
+		width: 100%;
+		background: $red;
+		color: $white;
+		font-weight: bold;
+	}
+	
+	> .nmm-standalone
+	{
+		margin-top: 3px;
+		border-top-width: 1px;
+		clear: both;
+	}
+}
+
+.nmm-field-select > .nmm-field-input > .nmm-error,
+.nmm-field-text > .nmm-field-input > .nmm-error
+{
+	max-width: 480px;
+}
+
+.nmm-description
+{
+	color: $wp-gray;
+	font-style: italic;
+}
+
+/* Repeatable Field */
+#side-sortables .nmm-repeatable
+{
+	margin-top: 4px;
+}
+
+.nmm-repeatable
+{
+	.nmm-row
+	{
+		@include transition-one(background);
+		background: $white;
+	}
+
+	.nmm-repeatable-field:nth-child(even) .nmm-row
+	{
+		background: $light-gray;
+	}
+
+	.nmm-field,
+	.nmm-field:nth-child(even)
+	{
+		background: none;
+	}
+	
+	> .nmm-repeatable-placeholder
+	{
+		border-top: 1px solid $repeatable-gray;
+		background: $repeatable-gray;
+	}
+	
+	@include bp(up-to-tablet)
+	{
+		margin-top: 4px;
+	}
+}
+
+.nmm-repeatable-header
+{
+	padding: 1px 24px 0;
+	background: $repeatable-gray;
+	
+	> .nmm-group
+	{
+		background: $white;
+	}
+
+	.nmm-repeatable-header label
+	{
+		cursor: default;
+	}
+}
+
+.nmm-repeatable-field
+{
+	position: relative;
+	padding: 1px 24px 0;
+	background: $repeatable-gray;
+	overflow: hidden;
+	
+	&.nmm-first .nmm-repeatable-move-up
+	{
+		display: none;
+	}
+	
+	&.ui-sortable-helper
+	{
+		padding-bottom: 1px;
+		
+		> .nmm-repeatable-move
+		{
+			background: $repeatable-dark-gray;
+		}
+	}
+	
+	> .nmm-repeatable-count
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 24px;
+		width: 24px;
+		font-size: 12px;
+		line-height: 24px;
+		letter-spacing: -1px;
+		text-align: center;
+		background: $repeatable-dark-gray;
+	}
+	
+	> .nmm-repeatable-move,
+	> .nmm-repeatable-move-down,
+	> .nmm-repeatable-move-up,
+	> .nmm-repeatable-insert,
+	> .nmm-repeatable-remove
+	{
+		@include transition-two(opacity, background, 100ms)
+		position: absolute;
+		top: 0;
+		right: 0;
+		display: block;
+		height: 24px;
+		width: 24px;
+		color: $wp-dark-gray;
+		text-align: center;
+		text-decoration: none;
+		cursor: pointer;
+		opacity: 0;
+		
+		&:hover
+		{
+			background: $repeatable-dark-gray;
+		}
+		
+		.dashicons,
+		.faux-dashicons
+		{
+			@include transition-one(all, 100ms);
+			padding-top: 1px;
+			height: 23px;
+			width: 24px;
+			font-size: 24px;
+			line-height: 23px;
+		}
+	}
+	
+	&.nmm-hover
+	{
+		> .nmm-repeatable-move,
+		> .nmm-repeatable-move-down,
+		> .nmm-repeatable-move-up,
+		> .nmm-repeatable-insert,
+		> .nmm-repeatable-remove
+		{
+			opacity: 1;
+		}
+	}
+	
+	&.nmm-animating
+	{
+		> .nmm-repeatable-move,
+		> .nmm-repeatable-move-down,
+		> .nmm-repeatable-move-up,
+		> .nmm-repeatable-insert,
+		> .nmm-repeatable-remove
+		{
+			display: none;
+		}
+	}
+	
+	> .nmm-repeatable-move
+	{
+		top: 24px;
+		right: auto;
+		left: 0;
+		z-index: 1;
+		height: 100%;
+		
+		&:hover
+		{
+			z-index: 2;
+		}
+		
+		.dashicons,
+		.faux-dashicons
+		{
+			position: absolute;
+			top: 50%;
+			left: 0;
+			margin-top: -24px;
+			font-size: 22px;
+		}
+	}
+	
+	> .nmm-repeatable-move-down,
+	> .nmm-repeatable-move-up
+	{
+		@include transition-one(all, 100ms);
+		right: 24px;
+		height: 16px;
+		width: 16px;
+		
+		.dashicons
+		{
+			height: 16px;
+			width: 16px;
+			line-height: 16px;
+			font-size: 11px;
+		}
+		
+		&:hover
+		{
+			z-index: 2;
+			height: 24px;
+			width: 24px;
+			
+			.dashicons
+			{
+				height: 24px;
+				width: 24px;
+				line-height: 24px;
+				font-size: 22px;
+			}
+		}
+	}
+	
+	> .nmm-repeatable-move-down
+	{
+		right: auto;
+		left: 24px;
+	}
+	
+	> .nmm-repeatable-remove
+	{
+		top: 50%;
+	}
+	
+	> .nmm-repeatable-insert .dashicons
+	{
+		padding: 3px 1px 0 0;
+		height: 21px;
+		width: 23px;
+		line-height: 21px;
+	}
+	
+	> .nmm-simple-field
+	{
+		padding: 12px;
+		background: $white;
+	}
+}
+
+div.nmm-repeatable-field:nth-last-of-type(3) > .nmm-repeatable-move-down
+{
+	display: none;
+}
+
+.ui-sortable-disabled > .nmm-repeatable-field
+{
+	> .nmm-repeatable-move,
+	> .nmm-repeatable-move-down,
+	> .nmm-repeatable-move-up,
+	{
+		display: none;
+	}
+}
+
+.nmm-repeatable-template
+{
+	display: none;
+}
+
+.nmm-repeatable-add
+{
+	border: 1px solid $repeatable-gray;
+	border-right-width: 24px;
+	border-left-width: 24px;
+	padding: 12px;
+	background: $repeatable-light-gray;
+}
+
+/* Thin Repeatable Field */
+.nmm-thin-repeatable
+{
+	> .nmm-repeatable-header
+	{
+		display: none;
+	}
+	
+	> .nmm-repeatable-field
+	{
+		padding: 1px 1px 0;
+		
+		> .nmm-repeatable-move,
+		> .nmm-repeatable-move .dashicons
+		{
+			@include transition-one(all, 100ms);
+			width: 16px;
+			font-size: 11px;
+		}
+		
+		> .nmm-repeatable-move
+		{
+			&:hover,
+			&:hover .dashicons
+			{
+				width: 24px;
+				font-size: 22px;
+			}
+			
+			.dashicons
+			{
+				top: 0;
+				margin-top: 0;
+				height: 16px;
+				line-height: 16px;
+				opacity: 0.5;
+			}
+		}
+		
+		> .nmm-repeatable-move-down,
+		> .nmm-repeatable-move-up
+		{
+			height: 24px;
+			width: 24px;
+			
+			.dashicons
+			{
+				height: 24px;
+				width: 24px;
+				line-height: 24px;
+				font-size: 22px;
+			}
+		}
+		
+		> .nmm-repeatable-move-up
+		{
+			right: auto;
+			left: 48px;
+		}
+		
+		> .nmm-repeatable-insert
+		{
+			left: 50%;
+			margin-left: -12px;
+		}
+
+		> .nmm-repeatable-remove
+		{
+			top: 0;
+		}
+	}
+
+	> .nmm-repeatable-field > .nmm-repeatable-move:hover .dashicons,
+	> .ui-sortable-helper > .nmm-repeatable-move .dashicons
+	{
+		top: 50%;
+		margin-top: -24px;
+		height: 23px;
+		line-height: 23px;
+		opacity: 1;
+	}
+	
+	> .nmm-repeatable-add
+	{
+		border-right-width: 1px;
+		border-left-width: 1px;
+	}
+}
+
+.nmm-thin-repeatable > .nmm-repeatable-field > div:first-of-type,
+#side-sortables .nmm-thin-repeatable > .nmm-repeatable-field > div:first-of-type
+{
+	margin-top: 23px;
+}
+
+/* Group Field */
+.nmm-group
+{
+	border: 1px solid #e5e5e5;
+	overflow: hidden;
+	
+	@include bp(up-to-tablet)
+	{
+		margin-top: 4px;
+	}
+}
+
+#side-sortables .nmm-group
+{
+	margin-top: 4px;
+}
+
+.nmm-repeatable-header > .nmm-group,
+.nmm-repeatable-field > .nmm-group
+{
+	border: 0;
+	
+	@include bp(up-to-tablet)
+	{
+		margin-top: 0;
+	}
+}
+
+#side-sortables .nmm-repeatable-field > .nmm-group
+{
+	margin-top: 0;
+}
+
+.nmm-group > .nmm-field > .nmm-field-label,
+.nmm-group > .nmm-row > .nmm-field > .nmm-field-label
+{
+	margin-bottom: -12px;
+	padding-bottom: 0;
+	width: auto;
+	float: none;
+}
+
+/* Row */
+.nmm-row
+{
+	overflow: hidden;
+	width: 105%;
+	background: $white;
+	
+	> .nmm-field
+	{
+		float: left;
+	}
+
+	> .nmm-columns-1
+	{
+		width: 7.937%
+	}
+
+	> .nmm-columns-2
+	{
+		width: 15.873%
+	}
+
+	> .nmm-columns-3
+	{
+		width: 23.81%
+	}
+
+	> .nmm-columns-4
+	{
+		width: 31.746%
+	}
+
+	> .nmm-columns-5
+	{
+		width: 39.683%
+	}
+
+	> .nmm-columns-6
+	{
+		width: 47.619%
+	}
+
+	> .nmm-columns-7
+	{
+		width: 55.556%
+	}
+
+	> .nmm-columns-8
+	{
+		width: 63.492%
+	}
+
+	> .nmm-columns-9
+	{
+		width: 71.429%
+	}
+
+	> .nmm-columns-10
+	{
+		width: 79.365%
+	}
+
+	> .nmm-columns-11
+	{
+		width: 87.302%
+	}
+
+	> .nmm-columns-12
+	{
+		width: 95.238%
+	}
+}
+
+.nmm-repeatable-field > .nmm-group > .nmm-row > .nmm-field
+{
+	> .nmm-field-label,
+	> .nmm-field-input > .nmm-description
+	{
+		display: none;
+	}
+}
+
+/* Thin Repeatable Field Row */
+.nmm-thin-repeatable > .nmm-repeatable-field > .nmm-group > .nmm-row
+{
+	width: auto;
+	
+	> .nmm-field
+	{
+		float: none;
+		width: auto;
+		
+		&:nth-child(even)
+		{
+			background: $light-gray;
+		}
+		
+		> .nmm-field-label,
+		> .nmm-field-input > .nmm-description
+		{
+			display: block;
+		}
+	}
+}
+
+/* Checkbox Field */
+.nmm-field-checkbox
+{
+	input[type='checkbox']
+	{
+		margin: 0;
+	}
+
+	.nmm-simple-field
+	{
+		float: left;
+	}
+
+	.nmm-description
+	{
+		padding: 1px 0 0 4px;
+		overflow: hidden;
+	}
+}
+
+/* Code & HTML Fields */
+.wp-core-ui .nmm-field-code,
+.nmm-field-html
+{
+	p:first-child
+	{
+		margin-top: 0;
+	}
+
+	p:last-child,
+	pre
+	{
+		margin-bottom: 0;
+	}
+	
+	button
+	{
+		margin-right: 0.5em;
+		height: 21px;
+		line-height: 19px;
+		verticl-align: middle;
+		
+		&:first-of-type
+		{
+			margin-left: 0.5em;
+		}
+		
+		&:last-child
+		{
+			margin-right: 0;
+		}
+	}
+	
+	pre
+	{
+		@include box-shadow(inset 0px 1px 2px $field-shadow);
+		border: 1px solid $field-border;
+		padding: 3px 5px;
+		overflow: auto;
+		background: $white;
+		color: $field-text;
+		cursor: default;
+		white-space: pre-wrap;
+	}
+}
+
+/* Radio Buttons Fields */
+.nmm-field-radio > .nmm-field-input > .nmm-simple-field > label
+{
+	padding: 0 12px 6px 0;
+	display: inline-block;
+	
+	> input,
+	> span
+	{
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+
+/* Select & Text Fields */
+.nmm-field-select select,
+.nmm-field-text input[type='text']
+{
+	width: 100%;
+	max-width: 480px;
+	color: $field-text;
+}

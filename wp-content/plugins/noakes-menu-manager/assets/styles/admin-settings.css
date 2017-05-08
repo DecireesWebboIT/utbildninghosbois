@@ -1,0 +1,675 @@
+/*!
+ * Admin settings Cascading Style Sheet include.
+ * 
+ * @since 1.3.0
+ * 
+ * @package Nav Menu Manager
+ * 
+ */
+/* General */
+abbr[title] {
+  border-bottom: 1px dotted #333;
+  cursor: help;
+}
+
+.pre-4-2 .alternate, .striped > tbody > :nth-child(2n+1) {
+  background: #f9f9f9;
+}
+
+/* Faux Dashicons */
+.faux-dashicons {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  line-height: 1;
+  text-align: center;
+  vertical-align: top;
+}
+
+.faux-dashicons img {
+  margin: 0 !important;
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Meta Boxes */
+#poststuff .nmm-meta-box .inside {
+  margin: 0;
+  padding: 0;
+}
+
+#poststuff .nmm-meta-box :focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* Fields */
+.nmm-field {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-transition: background 100ms ease-in-out;
+  -ms-transition: background 100ms ease-in-out;
+  -o-transition: background 100ms ease-in-out;
+  -webkit-transition: background 100ms ease-in-out;
+  transition: background 100ms ease-in-out;
+  overflow: hidden;
+  background: #fff;
+}
+
+.nmm-field:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+.nmm-field img {
+  margin-top: 6px;
+  height: auto;
+  max-width: 100%;
+}
+
+.nmm-field .robert-noakes {
+  width: 100%;
+  max-width: 257px;
+}
+
+.nmm-field label {
+  display: block;
+}
+
+.nmm-field-label,
+.nmm-field-input {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 12px;
+  overflow: hidden;
+}
+
+.nmm-field-label {
+  float: left;
+  width: 25%;
+}
+
+@media (max-width: 782px) {
+  .nmm-field-label {
+    margin-bottom: -12px;
+    padding-bottom: 0;
+    float: none;
+    width: auto;
+  }
+}
+
+#side-sortables .nmm-field-label {
+  margin-bottom: -12px;
+  padding-bottom: 0;
+  float: none;
+  width: auto;
+}
+
+.nmm-field-input input,
+.nmm-field-input select {
+  margin: 0;
+}
+
+.nmm-field-input .nmm-error {
+  border: 1px solid #d8000c;
+}
+
+.nmm-field-input > .nmm-error {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0;
+  padding: 3px 5px;
+  display: block;
+  width: 100%;
+  background: #d8000c;
+  color: #fff;
+  font-weight: bold;
+}
+
+.nmm-field-input > .nmm-standalone {
+  margin-top: 3px;
+  border-top-width: 1px;
+  clear: both;
+}
+
+.nmm-field-select > .nmm-field-input > .nmm-error,
+.nmm-field-text > .nmm-field-input > .nmm-error {
+  max-width: 480px;
+}
+
+.nmm-description {
+  color: #666;
+  font-style: italic;
+}
+
+/* Repeatable Field */
+#side-sortables .nmm-repeatable {
+  margin-top: 4px;
+}
+
+.nmm-repeatable .nmm-row {
+  -moz-transition: background 200ms ease-in-out;
+  -ms-transition: background 200ms ease-in-out;
+  -o-transition: background 200ms ease-in-out;
+  -webkit-transition: background 200ms ease-in-out;
+  transition: background 200ms ease-in-out;
+  background: #fff;
+}
+
+.nmm-repeatable .nmm-repeatable-field:nth-child(even) .nmm-row {
+  background: #f9f9f9;
+}
+
+.nmm-repeatable .nmm-field,
+.nmm-repeatable .nmm-field:nth-child(even) {
+  background: none;
+}
+
+.nmm-repeatable > .nmm-repeatable-placeholder {
+  border-top: 1px solid #e5e5e5;
+  background: #e5e5e5;
+}
+
+@media (max-width: 782px) {
+  .nmm-repeatable {
+    margin-top: 4px;
+  }
+}
+
+.nmm-repeatable-header {
+  padding: 1px 24px 0;
+  background: #e5e5e5;
+}
+
+.nmm-repeatable-header > .nmm-group {
+  background: #fff;
+}
+
+.nmm-repeatable-header .nmm-repeatable-header label {
+  cursor: default;
+}
+
+.nmm-repeatable-field {
+  position: relative;
+  padding: 1px 24px 0;
+  background: #e5e5e5;
+  overflow: hidden;
+}
+
+.nmm-repeatable-field.nmm-first .nmm-repeatable-move-up {
+  display: none;
+}
+
+.nmm-repeatable-field.ui-sortable-helper {
+  padding-bottom: 1px;
+}
+
+.nmm-repeatable-field.ui-sortable-helper > .nmm-repeatable-move {
+  background: #d4d4d4;
+}
+
+.nmm-repeatable-field > .nmm-repeatable-count {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 24px;
+  width: 24px;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: -1px;
+  text-align: center;
+  background: #d4d4d4;
+}
+
+.nmm-repeatable-field > .nmm-repeatable-move,
+.nmm-repeatable-field > .nmm-repeatable-move-down,
+.nmm-repeatable-field > .nmm-repeatable-move-up,
+.nmm-repeatable-field > .nmm-repeatable-insert,
+.nmm-repeatable-field > .nmm-repeatable-remove {
+  -moz-transition: opacity 100ms ease-in-out, background 200ms ease-in-out;
+  -ms-transition: opacity 100ms ease-in-out, background 200ms ease-in-out;
+  -o-transition: opacity 100ms ease-in-out, background 200ms ease-in-out;
+  -webkit-transition: opacity 100ms ease-in-out, background 200ms ease-in-out;
+  transition: opacity 100ms ease-in-out, background 200ms ease-in-out;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  height: 24px;
+  width: 24px;
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.nmm-repeatable-field > .nmm-repeatable-move:hover,
+.nmm-repeatable-field > .nmm-repeatable-move-down:hover,
+.nmm-repeatable-field > .nmm-repeatable-move-up:hover,
+.nmm-repeatable-field > .nmm-repeatable-insert:hover,
+.nmm-repeatable-field > .nmm-repeatable-remove:hover {
+  background: #d4d4d4;
+}
+
+.nmm-repeatable-field > .nmm-repeatable-move .dashicons,
+.nmm-repeatable-field > .nmm-repeatable-move .faux-dashicons,
+.nmm-repeatable-field > .nmm-repeatable-move-down .dashicons,
+.nmm-repeatable-field > .nmm-repeatable-move-down .faux-dashicons,
+.nmm-repeatable-field > .nmm-repeatable-move-up .dashicons,
+.nmm-repeatable-field > .nmm-repeatable-move-up .faux-dashicons,
+.nmm-repeatable-field > .nmm-repeatable-insert .dashicons,
+.nmm-repeatable-field > .nmm-repeatable-insert .faux-dashicons,
+.nmm-repeatable-field > .nmm-repeatable-remove .dashicons,
+.nmm-repeatable-field > .nmm-repeatable-remove .faux-dashicons {
+  -moz-transition: all 100ms ease-in-out;
+  -ms-transition: all 100ms ease-in-out;
+  -o-transition: all 100ms ease-in-out;
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+  padding-top: 1px;
+  height: 23px;
+  width: 24px;
+  font-size: 24px;
+  line-height: 23px;
+}
+
+.nmm-repeatable-field.nmm-hover > .nmm-repeatable-move,
+.nmm-repeatable-field.nmm-hover > .nmm-repeatable-move-down,
+.nmm-repeatable-field.nmm-hover > .nmm-repeatable-move-up,
+.nmm-repeatable-field.nmm-hover > .nmm-repeatable-insert,
+.nmm-repeatable-field.nmm-hover > .nmm-repeatable-remove {
+  opacity: 1;
+}
+
+.nmm-repeatable-field.nmm-animating > .nmm-repeatable-move,
+.nmm-repeatable-field.nmm-animating > .nmm-repeatable-move-down,
+.nmm-repeatable-field.nmm-animating > .nmm-repeatable-move-up,
+.nmm-repeatable-field.nmm-animating > .nmm-repeatable-insert,
+.nmm-repeatable-field.nmm-animating > .nmm-repeatable-remove {
+  display: none;
+}
+
+.nmm-repeatable-field > .nmm-repeatable-move {
+  top: 24px;
+  right: auto;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+}
+
+.nmm-repeatable-field > .nmm-repeatable-move:hover {
+  z-index: 2;
+}
+
+.nmm-repeatable-field > .nmm-repeatable-move .dashicons,
+.nmm-repeatable-field > .nmm-repeatable-move .faux-dashicons {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -24px;
+  font-size: 22px;
+}
+
+.nmm-repeatable-field > .nmm-repeatable-move-down,
+.nmm-repeatable-field > .nmm-repeatable-move-up {
+  -moz-transition: all 100ms ease-in-out;
+  -ms-transition: all 100ms ease-in-out;
+  -o-transition: all 100ms ease-in-out;
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+  right: 24px;
+  height: 16px;
+  width: 16px;
+}
+
+.nmm-repeatable-field > .nmm-repeatable-move-down .dashicons,
+.nmm-repeatable-field > .nmm-repeatable-move-up .dashicons {
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  font-size: 11px;
+}
+
+.nmm-repeatable-field > .nmm-repeatable-move-down:hover,
+.nmm-repeatable-field > .nmm-repeatable-move-up:hover {
+  z-index: 2;
+  height: 24px;
+  width: 24px;
+}
+
+.nmm-repeatable-field > .nmm-repeatable-move-down:hover .dashicons,
+.nmm-repeatable-field > .nmm-repeatable-move-up:hover .dashicons {
+  height: 24px;
+  width: 24px;
+  line-height: 24px;
+  font-size: 22px;
+}
+
+.nmm-repeatable-field > .nmm-repeatable-move-down {
+  right: auto;
+  left: 24px;
+}
+
+.nmm-repeatable-field > .nmm-repeatable-remove {
+  top: 50%;
+}
+
+.nmm-repeatable-field > .nmm-repeatable-insert .dashicons {
+  padding: 3px 1px 0 0;
+  height: 21px;
+  width: 23px;
+  line-height: 21px;
+}
+
+.nmm-repeatable-field > .nmm-simple-field {
+  padding: 12px;
+  background: #fff;
+}
+
+div.nmm-repeatable-field:nth-last-of-type(3) > .nmm-repeatable-move-down {
+  display: none;
+}
+
+.ui-sortable-disabled > .nmm-repeatable-field > .nmm-repeatable-move,
+.ui-sortable-disabled > .nmm-repeatable-field > .nmm-repeatable-move-down,
+.ui-sortable-disabled > .nmm-repeatable-field > .nmm-repeatable-move-up {
+  display: none;
+}
+
+.nmm-repeatable-template {
+  display: none;
+}
+
+.nmm-repeatable-add {
+  border: 1px solid #e5e5e5;
+  border-right-width: 24px;
+  border-left-width: 24px;
+  padding: 12px;
+  background: #eee;
+}
+
+/* Thin Repeatable Field */
+.nmm-thin-repeatable > .nmm-repeatable-header {
+  display: none;
+}
+
+.nmm-thin-repeatable > .nmm-repeatable-field {
+  padding: 1px 1px 0;
+}
+
+.nmm-thin-repeatable > .nmm-repeatable-field > .nmm-repeatable-move,
+.nmm-thin-repeatable > .nmm-repeatable-field > .nmm-repeatable-move .dashicons {
+  -moz-transition: all 100ms ease-in-out;
+  -ms-transition: all 100ms ease-in-out;
+  -o-transition: all 100ms ease-in-out;
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+  width: 16px;
+  font-size: 11px;
+}
+
+.nmm-thin-repeatable > .nmm-repeatable-field > .nmm-repeatable-move:hover,
+.nmm-thin-repeatable > .nmm-repeatable-field > .nmm-repeatable-move:hover .dashicons {
+  width: 24px;
+  font-size: 22px;
+}
+
+.nmm-thin-repeatable > .nmm-repeatable-field > .nmm-repeatable-move .dashicons {
+  top: 0;
+  margin-top: 0;
+  height: 16px;
+  line-height: 16px;
+  opacity: 0.5;
+}
+
+.nmm-thin-repeatable > .nmm-repeatable-field > .nmm-repeatable-move-down,
+.nmm-thin-repeatable > .nmm-repeatable-field > .nmm-repeatable-move-up {
+  height: 24px;
+  width: 24px;
+}
+
+.nmm-thin-repeatable > .nmm-repeatable-field > .nmm-repeatable-move-down .dashicons,
+.nmm-thin-repeatable > .nmm-repeatable-field > .nmm-repeatable-move-up .dashicons {
+  height: 24px;
+  width: 24px;
+  line-height: 24px;
+  font-size: 22px;
+}
+
+.nmm-thin-repeatable > .nmm-repeatable-field > .nmm-repeatable-move-up {
+  right: auto;
+  left: 48px;
+}
+
+.nmm-thin-repeatable > .nmm-repeatable-field > .nmm-repeatable-insert {
+  left: 50%;
+  margin-left: -12px;
+}
+
+.nmm-thin-repeatable > .nmm-repeatable-field > .nmm-repeatable-remove {
+  top: 0;
+}
+
+.nmm-thin-repeatable > .nmm-repeatable-field > .nmm-repeatable-move:hover .dashicons,
+.nmm-thin-repeatable > .ui-sortable-helper > .nmm-repeatable-move .dashicons {
+  top: 50%;
+  margin-top: -24px;
+  height: 23px;
+  line-height: 23px;
+  opacity: 1;
+}
+
+.nmm-thin-repeatable > .nmm-repeatable-add {
+  border-right-width: 1px;
+  border-left-width: 1px;
+}
+
+.nmm-thin-repeatable > .nmm-repeatable-field > div:first-of-type,
+#side-sortables .nmm-thin-repeatable > .nmm-repeatable-field > div:first-of-type {
+  margin-top: 23px;
+}
+
+/* Group Field */
+.nmm-group {
+  border: 1px solid #e5e5e5;
+  overflow: hidden;
+}
+
+@media (max-width: 782px) {
+  .nmm-group {
+    margin-top: 4px;
+  }
+}
+
+#side-sortables .nmm-group {
+  margin-top: 4px;
+}
+
+.nmm-repeatable-header > .nmm-group,
+.nmm-repeatable-field > .nmm-group {
+  border: 0;
+}
+
+@media (max-width: 782px) {
+  .nmm-repeatable-header > .nmm-group,
+  .nmm-repeatable-field > .nmm-group {
+    margin-top: 0;
+  }
+}
+
+#side-sortables .nmm-repeatable-field > .nmm-group {
+  margin-top: 0;
+}
+
+.nmm-group > .nmm-field > .nmm-field-label,
+.nmm-group > .nmm-row > .nmm-field > .nmm-field-label {
+  margin-bottom: -12px;
+  padding-bottom: 0;
+  width: auto;
+  float: none;
+}
+
+/* Row */
+.nmm-row {
+  overflow: hidden;
+  width: 105%;
+  background: #fff;
+}
+
+.nmm-row > .nmm-field {
+  float: left;
+}
+
+.nmm-row > .nmm-columns-1 {
+  width: 7.937%;
+}
+
+.nmm-row > .nmm-columns-2 {
+  width: 15.873%;
+}
+
+.nmm-row > .nmm-columns-3 {
+  width: 23.81%;
+}
+
+.nmm-row > .nmm-columns-4 {
+  width: 31.746%;
+}
+
+.nmm-row > .nmm-columns-5 {
+  width: 39.683%;
+}
+
+.nmm-row > .nmm-columns-6 {
+  width: 47.619%;
+}
+
+.nmm-row > .nmm-columns-7 {
+  width: 55.556%;
+}
+
+.nmm-row > .nmm-columns-8 {
+  width: 63.492%;
+}
+
+.nmm-row > .nmm-columns-9 {
+  width: 71.429%;
+}
+
+.nmm-row > .nmm-columns-10 {
+  width: 79.365%;
+}
+
+.nmm-row > .nmm-columns-11 {
+  width: 87.302%;
+}
+
+.nmm-row > .nmm-columns-12 {
+  width: 95.238%;
+}
+
+.nmm-repeatable-field > .nmm-group > .nmm-row > .nmm-field > .nmm-field-label,
+.nmm-repeatable-field > .nmm-group > .nmm-row > .nmm-field > .nmm-field-input > .nmm-description {
+  display: none;
+}
+
+/* Thin Repeatable Field Row */
+.nmm-thin-repeatable > .nmm-repeatable-field > .nmm-group > .nmm-row {
+  width: auto;
+}
+
+.nmm-thin-repeatable > .nmm-repeatable-field > .nmm-group > .nmm-row > .nmm-field {
+  float: none;
+  width: auto;
+}
+
+.nmm-thin-repeatable > .nmm-repeatable-field > .nmm-group > .nmm-row > .nmm-field:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.nmm-thin-repeatable > .nmm-repeatable-field > .nmm-group > .nmm-row > .nmm-field > .nmm-field-label,
+.nmm-thin-repeatable > .nmm-repeatable-field > .nmm-group > .nmm-row > .nmm-field > .nmm-field-input > .nmm-description {
+  display: block;
+}
+
+/* Checkbox Field */
+.nmm-field-checkbox input[type='checkbox'] {
+  margin: 0;
+}
+
+.nmm-field-checkbox .nmm-simple-field {
+  float: left;
+}
+
+.nmm-field-checkbox .nmm-description {
+  padding: 1px 0 0 4px;
+  overflow: hidden;
+}
+
+/* Code & HTML Fields */
+.wp-core-ui .nmm-field-code p:first-child,
+.nmm-field-html p:first-child {
+  margin-top: 0;
+}
+
+.wp-core-ui .nmm-field-code p:last-child,
+.wp-core-ui .nmm-field-code pre,
+.nmm-field-html p:last-child,
+.nmm-field-html pre {
+  margin-bottom: 0;
+}
+
+.wp-core-ui .nmm-field-code button,
+.nmm-field-html button {
+  margin-right: 0.5em;
+  height: 21px;
+  line-height: 19px;
+  verticl-align: middle;
+}
+
+.wp-core-ui .nmm-field-code button:first-of-type,
+.nmm-field-html button:first-of-type {
+  margin-left: 0.5em;
+}
+
+.wp-core-ui .nmm-field-code button:last-child,
+.nmm-field-html button:last-child {
+  margin-right: 0;
+}
+
+.wp-core-ui .nmm-field-code pre,
+.nmm-field-html pre {
+  -webkit-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.07);
+  box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.07);
+  border: 1px solid #ddd;
+  padding: 3px 5px;
+  overflow: auto;
+  background: #fff;
+  color: #32373c;
+  cursor: default;
+  white-space: pre-wrap;
+}
+
+/* Radio Buttons Fields */
+.nmm-field-radio > .nmm-field-input > .nmm-simple-field > label {
+  padding: 0 12px 6px 0;
+  display: inline-block;
+}
+
+.nmm-field-radio > .nmm-field-input > .nmm-simple-field > label > input,
+.nmm-field-radio > .nmm-field-input > .nmm-simple-field > label > span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Select & Text Fields */
+.nmm-field-select select,
+.nmm-field-text input[type='text'] {
+  width: 100%;
+  max-width: 480px;
+  color: #32373c;
+}

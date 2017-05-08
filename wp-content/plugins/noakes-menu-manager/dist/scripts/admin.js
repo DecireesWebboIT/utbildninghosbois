@@ -1,0 +1,9 @@
+/*!
+ * Admin JavaScript include.
+ * 
+ * @since	1.3.0
+ * 
+ * @package	Nav Menu Manager
+ */
+!function(n){"use strict";n.nmm=n.nmm||{},n.nmm.data=n.nmm.data||{},n.nmm.events=n.nmm.events||{},n.nmm.include=n.nmm.include||{},n.nmm.is=n.nmm.is||{},n.nmm.admin=n.nmm.admin||{},n.extend(n.nmm.data,{help_tab_id:"nmm-help-tab-id"}),n.extend(n.nmm.events,{setup:"nmm-setup"}),n.extend(n.nmm.include,{scroll_stop:function(){n.nmm.is.included("scroll-stop")||n("html,body").on("DOMMouseScroll keyup mousedown mousewheel scroll touchmove wheel",function(){n(this).stop()})}}),n.extend(n.nmm.is,{included:function(t){t=t.replace(/[^a-zA-Z0-9]/gi,""),t="noakes-"+t;var e=n("html");return!!e.hasClass(t)||(e.addClass(t),!1)}}),n.extend(n.nmm.admin,{help_buttons:function(t){var e="undefined"==typeof t?n("#contextual-help-wrap .nmm-help-button[data-"+n.nmm.data.help_tab_id+"],.wrap .nmm-help-button[data-"+n.nmm.data.help_tab_id+"]").not(".nmm-disabled").not("."+n.nmm.events.setup).addClass(n.nmm.events.setup):t.find(".nmm-help-button");e.css({display:"inline-block",opacity:"1"}).click(function(t){t.stopPropagation(),n("#tab-link-"+n(this).data(n.nmm.data.help_tab_id)+" > a").click(),n("#contextual-help-link").not(".screen-meta-active").click(),n("html,body").animate({scrollTop:"0px"},{queue:!1})}),n("#screen-options-wrap .nmm-help-button").remove()},help_tabs:function(){var t=n("#contextual-help-columns");t.find('li[id^="tab-link-nmm-"],.help-tab-content[id^="tab-panel-nmm-"]').each(function(){var t=n(this);t.appendTo(t.parent())}),t.find(".contextual-help-tabs > ul,.contextual-help-tabs-wrap").each(function(){n(this).children().removeClass("active").first().addClass("active")})}}),n.fn.extend({nmm_trigger_all:function(t,e){return e="undefined"==typeof e?[]:e,e=n.isArray(e)?e:[e],this.each(function(){n(this).triggerHandler(t,e)})}}),n.nmm.admin.help_buttons(),n.nmm.admin.help_tabs()}(jQuery);
+//# sourceMappingURL=admin.js.map

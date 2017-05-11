@@ -1,0 +1,156 @@
+# Translation of Development (trunk) in Norwegian (Bokmål)
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-04-12 19:05:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1000\n"
+"Project-Id-Version: Development (trunk)\n"
+
+#. Plugin Name of the plugin/theme
+msgid "Categories to Tags Converter Importer"
+msgstr "Importør for konvertering av kategorier og stikkord"
+
+#. Author URI of the plugin/theme
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: wpcat2tag-importer.php:43
+msgid "Cheatin&#8217; uh?"
+msgstr "Jasså, du jukser?"
+
+#: wpcat2tag-importer.php:46
+msgid "Categories to Tags"
+msgstr "Kategorier til stikkord"
+
+#: wpcat2tag-importer.php:47
+msgid "Tags to Categories"
+msgstr "Stikkord til kategorier"
+
+#: wpcat2tag-importer.php:83
+msgid "Convert Category to Tag."
+msgid_plural "Convert Categories (%d) to Tags."
+msgstr[0] "Konverter kategori til stikkord."
+msgstr[1] "Konverter kategorier (%d) til stikkord."
+
+#: wpcat2tag-importer.php:90
+msgid "You have no categories to convert!"
+msgstr "Du har ingen kategorier å konvertere!"
+
+#: wpcat2tag-importer.php:107 wpcat2tag-importer.php:183
+msgid "Uncheck All"
+msgstr "Velg ingen"
+
+#: wpcat2tag-importer.php:114 wpcat2tag-importer.php:121
+#: wpcat2tag-importer.php:190 wpcat2tag-importer.php:197
+msgid "Check All"
+msgstr "Velg alle"
+
+#: wpcat2tag-importer.php:144
+msgid "* This category is also a tag. Converting it will add that tag to all posts that are currently in the category."
+msgstr "* Denne kategorien er også et stikkord. Konvertering av denne vil legge til stikkordet på alle innlegg som er i kategorien."
+
+#: wpcat2tag-importer.php:146
+msgid "Convert Categories to Tags"
+msgstr "Konverter kategorier til stikkord"
+
+#: wpcat2tag-importer.php:159
+msgid "Convert Tag to Category."
+msgid_plural "Convert Tags (%d) to Categories."
+msgstr[0] "Konverter stikkord til kategori."
+msgstr[1] "Konverter stikkord (%d) til kategorier."
+
+#: wpcat2tag-importer.php:161
+msgid "Here you can selectively convert existing tags to categories. To get started, check the tags you wish to be converted, then click the Convert button."
+msgstr "Kan du du konvertere utvalgte, eksisterende stikkord til kategorier. For å komme i gang, merk av stikkordene du vil konvertere, og klikk konverter-knappen."
+
+#: wpcat2tag-importer.php:85
+msgid "Hey there. Here you can selectively convert existing categories to tags. To get started, check the categories you wish to be converted, then click the Convert button."
+msgstr "Hei der. Her kan du konvertere utvalgte, eksisterende kategorier til stikkord. For å komme i gang, merk av kategoriene du vil skal konverteres, og klikk konverter-knappen."
+
+#: wpcat2tag-importer.php:162
+msgid "The newly created categories will still be associated with the same posts."
+msgstr "De nyopprettede kategoriene vil fremdeles være assosiert med de samme innleggene."
+
+#: wpcat2tag-importer.php:166
+msgid "You have no tags to convert!"
+msgstr "Du har ingen stikkord å konvertere!"
+
+#: wpcat2tag-importer.php:208
+msgid "* This tag is also a category. When converted, all posts associated with the tag will also be in the category."
+msgstr "* Dette stikkordet er også en kategori. Når konvertert, vil alle innlegg assosiert med stikkerordet også være i kategorien."
+
+#: wpcat2tag-importer.php:210
+msgid "Convert Tags to Categories"
+msgstr "Konverter stikkord til kategorier"
+
+#: wpcat2tag-importer.php:248 wpcat2tag-importer.php:368
+msgid "Uh, oh. Something didn&#8217;t work. Please <a href=\"%s\">try again</a>."
+msgstr "Uffda. Noe fungerte ikke som det skulle. Vennligst <a href=\"%s\">forsøk igjen</a>."
+
+#: wpcat2tag-importer.php:267
+msgid "Category %s doesn&#8217;t exist!"
+msgstr "Kategorien %s eksisterer ikke!"
+
+#: wpcat2tag-importer.php:270
+msgid "Converting category <strong>%s</strong> ... "
+msgstr "Konverterer kategorien <strong>%s</strong> …"
+
+#: wpcat2tag-importer.php:298 wpcat2tag-importer.php:341
+#: wpcat2tag-importer.php:427
+msgid "Converted successfully."
+msgstr "Konvertering utført."
+
+#: wpcat2tag-importer.php:317
+msgid "Tag added to all posts in this category."
+msgstr "Stikkord lagt til alle innlegg i denne kategori."
+
+#: wpcat2tag-importer.php:359
+msgid "* This category is also a tag. The converter has added that tag to all posts currently in the category. If you want to remove it, please confirm that all tags were added successfully, then delete it from the <a href=\"%s\">Manage Categories</a> page."
+msgstr "* Denne kategori er også et stikkord. Konvertereren har lagt det stikkordet til alle innlegg som nå er i den kategorien. Hvis du ønsker å fjerne det, vennligst bekreft at alle stikkord ble lagt til, og slett det fra siden <a href=\"%s\">administrer kategorier</a>."
+
+#: wpcat2tag-importer.php:360 wpcat2tag-importer.php:449
+msgid "We&#8217;re all done here, but you can always <a href=\"%s\">convert more</a>."
+msgstr "Vi er ferdige her, men du kan alltids <a href=\"%s\">konvertere flere</a>."
+
+#: wpcat2tag-importer.php:385
+msgid "Converting tag <strong>%s</strong> ... "
+msgstr "Konverterer stikkordet <strong>%s</strong> …"
+
+#: wpcat2tag-importer.php:409
+msgid "All posts were added to the category with the same name."
+msgstr "Alle innlegg ble lagt til kategorien med samme navn."
+
+#: wpcat2tag-importer.php:430
+msgid "Tag #%s doesn&#8217;t exist!"
+msgstr "Stikkordet #%s eksisterer ikke!"
+
+#: wpcat2tag-importer.php:448
+msgid "* This tag is also a category. The converter has added all posts from it to the category. If you want to remove it, please confirm that all posts were added successfully, then delete it from the <a href=\"%s\">Manage Tags</a> page."
+msgstr "* Dette stikkordet er også en kategori. Konvertereren har lagt alle innlegg med det til kategorien. Hvis du ønsker å fjerne det, vennligst bekreft at alle innlegg ble lagt til, og slett det fra siden <a href=\"%s\">administrer stikkord</a>."
+
+#: wpcat2tag-importer.php:491
+msgid "Categories and Tags Converter"
+msgstr "Konvertering av kategorier og stikkord"
+
+#. #-#-#-#-#  wpcat2tag-importer.pot (Categories to Tags Converter Importer
+#. 0.4)  #-#-#-#-#
+#. Description of the plugin/theme
+#: wpcat2tag-importer.php:491
+msgid "Convert existing categories to tags or tags to categories, selectively."
+msgstr "Konverter utvalgte, eksisterende kategorier til stikkord eller stikkord til kategorier."
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/wpcat2tag-importer/"
+msgstr "http://wordpress.org/extend/plugins/wpcat2tag-importer/"
+
+#. Author of the plugin/theme
+msgid "wordpressdotorg"
+msgstr "wordpressdotorg"
+
+#: wpcat2tag-importer.php:86
+msgid "Keep in mind that if you convert a category with child categories, the children become top-level orphans."
+msgstr "Husk at hvis du konverterer en kategori med underkategorier, blir underkategoriene foreldreløse uten toppnivå."

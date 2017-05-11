@@ -1,0 +1,116 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Automatic Updates\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Tue Apr 05 2016 10:50:23 GMT+0200 (CEST)\n"
+"POT-Revision-Date: Fri Apr 08 2016 15:43:03 GMT+0200 (CEST)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../sau-automatic-mode.class.php:95
+#, php-format
+msgid "Your site has been updated: %s"
+msgstr ""
+
+#: ../sau-automatic-mode.class.php:113 ../sau-manual-mode.class.php:86
+msgid "Plugins"
+msgstr ""
+
+#: ../sau-automatic-mode.class.php:119 ../sau-manual-mode.class.php:92
+msgid "Themes"
+msgstr ""
+
+#: ../sau-automatic-mode.class.php:174
+#, php-format
+msgid "WordPress was updated to version %s"
+msgstr ""
+
+#: ../sau-automatic-mode.class.php:189 ../sau-automatic-mode.class.php:209
+#, php-format
+msgid "%s was updated"
+msgstr ""
+
+#: ../sau-automatic-mode.class.php:197 ../sau-automatic-mode.class.php:217
+#, php-format
+msgid "to version %s"
+msgstr ""
+
+#: ../sau-manual-mode.class.php:68
+#, php-format
+msgid "Your site needs to be updated: %s"
+msgstr ""
+
+#: ../sau-manual-mode.class.php:96
+msgid "The updates can be installed from the WordPress dashboard:"
+msgstr ""
+
+#: ../sau-manual-mode.class.php:167
+#, php-format
+msgid "WordPress can be updated to version %s (currently %s)"
+msgstr ""
+
+#: ../sau-manual-mode.class.php:200 ../sau-manual-mode.class.php:232
+#, php-format
+msgid "\"%s\" can be updated to version %s (currently %s)"
+msgstr ""
+
+#. Name of the plugin
+msgid "Simple Automatic Updates"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Sets WordPress to automatically update core (major and minor releases), "
+"plugins and themes."
+msgstr ""
+
+#. Author of the plugin
+msgid "Jon Tejnung"
+msgstr ""
+
+#: ../simple-automatic-updates.php:78
+#, php-format
+msgid ""
+"This message was automatically sent from %s.\n"
+"You can change the mode of automatic updates in the WordPress dashboard\n"
+"under Settings->General."
+msgstr ""
+
+#: ../simple-automatic-updates.php:173
+msgid "Automatic updates mode"
+msgstr ""
+
+#: ../simple-automatic-updates.php:195
+msgid "Update automatically"
+msgstr ""
+
+#: ../simple-automatic-updates.php:199
+msgid "Update automatically (no email)"
+msgstr ""
+
+#: ../simple-automatic-updates.php:203
+msgid "Inform about available updates once a week"
+msgstr ""
+
+#: ../simple-automatic-updates.php:221
+msgid ""
+"A notification about available updates or updates made will be sent to the "
+"admin email address."
+msgstr ""

@@ -1,0 +1,149 @@
+# Translation of Development (trunk) in Swedish
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2010-11-19 00:30:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Development (trunk)\n"
+
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: wpcat2tag-importer.php:43
+msgid "Cheatin&#8217; uh?"
+msgstr "Fuskar du?"
+
+#: wpcat2tag-importer.php:46
+msgid "Categories to Tags"
+msgstr "Kategorier till etiketter"
+
+#: wpcat2tag-importer.php:47
+msgid "Tags to Categories"
+msgstr "Etiketter till kategorier"
+
+#: wpcat2tag-importer.php:83
+msgid "Convert Category to Tag."
+msgid_plural "Convert Categories (%d) to Tags."
+msgstr[0] "Konvertera kategori till etikett."
+msgstr[1] "Konvertera kategorier (%d) till etiketter"
+
+#: wpcat2tag-importer.php:85
+msgid "Hey there. Here you can selectively convert existing categories to tags. To get started, check the categories you wish to be converted, then click the Convert button."
+msgstr "Hejsan! Den här konverteraren gör det möjligt att konvertera existerande kategorier till etiketter. Kryssa för de kategorier du vill konvertera och klicka därefter på Konvertera-knappen."
+
+#: wpcat2tag-importer.php:86
+msgid "Keep in mind that if you convert a category with child categories, the children become top-level orphans."
+msgstr "Kom ihåg att om du konverterar en kategori med underkategorier kommer underkategoriernas moderkategori att raderas och de flyttas till roten."
+
+#: wpcat2tag-importer.php:90
+msgid "You have no categories to convert!"
+msgstr "Inga kategorier att konvertera!"
+
+#: wpcat2tag-importer.php:107 wpcat2tag-importer.php:183
+msgid "Uncheck All"
+msgstr "Avmarkera alla"
+
+#: wpcat2tag-importer.php:114 wpcat2tag-importer.php:121
+#: wpcat2tag-importer.php:190 wpcat2tag-importer.php:197
+msgid "Check All"
+msgstr "Markera alla"
+
+#: wpcat2tag-importer.php:144
+msgid "* This category is also a tag. Converting it will add that tag to all posts that are currently in the category."
+msgstr "* Denna kategori är även en etikett. Konvertering kommer att lägga till etiketten för alla inlägg som finns i kategorin."
+
+#: wpcat2tag-importer.php:146
+msgid "Convert Categories to Tags"
+msgstr "Konvertera kategorier till etiketter"
+
+#: wpcat2tag-importer.php:159
+msgid "Convert Tag to Category."
+msgid_plural "Convert Tags (%d) to Categories."
+msgstr[0] "Konvertera etikett till kategorier"
+msgstr[1] "Konvertera etiketter (%d) till kategorier"
+
+#: wpcat2tag-importer.php:161
+msgid "Here you can selectively convert existing tags to categories. To get started, check the tags you wish to be converted, then click the Convert button."
+msgstr "Den här konverteraren gör det möjligt att selektivt konvertera existerande etiketter till kategorier. Kryssa för de etiketter du vill konvertera och klicka därefter på Konvertera-knappen."
+
+#: wpcat2tag-importer.php:162
+msgid "The newly created categories will still be associated with the same posts."
+msgstr "De nyligen skapade kategorierna kommer fortfarande att vara assosierade med samma inlägg."
+
+#: wpcat2tag-importer.php:166
+msgid "You have no tags to convert!"
+msgstr "Inga etiketter att konvertera!"
+
+#: wpcat2tag-importer.php:208
+msgid "* This tag is also a category. When converted, all posts associated with the tag will also be in the category."
+msgstr "* Denna etikett är även en kategori. Konverterat så kommer alla inlägg assosierade med etiketten också finnas i kategorin."
+
+#: wpcat2tag-importer.php:210
+msgid "Convert Tags to Categories"
+msgstr "Konvertera etiketter till kategorier"
+
+#: wpcat2tag-importer.php:248 wpcat2tag-importer.php:368
+msgid "Uh, oh. Something didn&#8217;t work. Please <a href=\"%s\">try again</a>."
+msgstr "Oj då. Någonting gick visst snett. Vänligen <a href=\"%s\">försök på nytt</a>."
+
+#: wpcat2tag-importer.php:267
+msgid "Category %s doesn&#8217;t exist!"
+msgstr "Kategorin %s finns inte!"
+
+#: wpcat2tag-importer.php:270
+msgid "Converting category <strong>%s</strong> ... "
+msgstr "Konverterar kategorin <strong>%s</strong> ... "
+
+#: wpcat2tag-importer.php:298 wpcat2tag-importer.php:341
+#: wpcat2tag-importer.php:427
+msgid "Converted successfully."
+msgstr "Konverteringen lyckades."
+
+#: wpcat2tag-importer.php:317
+msgid "Tag added to all posts in this category."
+msgstr "Etikett angiven för alla inlägg i denna kategori."
+
+#: wpcat2tag-importer.php:359
+msgid "* This category is also a tag. The converter has added that tag to all posts currently in the category. If you want to remove it, please confirm that all tags were added successfully, then delete it from the <a href=\"%s\">Manage Categories</a> page."
+msgstr "* Denna kategori är även en etikett. Konverteraren har lagt till etiketten till alla inlägg i kategorin. Om du vill radera den, kolla så att alla etiketter lades till, radera den sedan från <a href=\"%s\">Redigera Kategorier</a>-sidan."
+
+#: wpcat2tag-importer.php:360 wpcat2tag-importer.php:449
+msgid "We&#8217;re all done here, but you can always <a href=\"%s\">convert more</a>."
+msgstr "Vi är klara här, men du kan alltid <a href=\"%s\">konvertera mer</a>."
+
+#: wpcat2tag-importer.php:385
+msgid "Converting tag <strong>%s</strong> ... "
+msgstr "Konverterar etikett <strong>%s</strong> ... "
+
+#: wpcat2tag-importer.php:409
+msgid "All posts were added to the category with the same name."
+msgstr "Alla inlägg lades till i kategorin med samma namn."
+
+#: wpcat2tag-importer.php:430
+msgid "Tag #%s doesn&#8217;t exist!"
+msgstr "Etikett #%s finns inte!"
+
+#: wpcat2tag-importer.php:448
+msgid "* This tag is also a category. The converter has added all posts from it to the category. If you want to remove it, please confirm that all posts were added successfully, then delete it from the <a href=\"%s\">Manage Tags</a> page."
+msgstr "* Denna etikett är även en kategori. Konverteraren har lagt till alla inlägg från den till kategorin. Om du vill radera den, kolla så att alla inlägg lades till, radera den sedan från <a href=\"%s\">Redigera Etiketter</a>-sidan."
+
+#: wpcat2tag-importer.php:491
+msgid "Categories and Tags Converter"
+msgstr "Kategori och etikett-konverterare"
+
+#: wpcat2tag-importer.php:491
+msgid "Convert existing categories to tags or tags to categories, selectively."
+msgstr "Konverterar existerande kategorier till etiketter eller tvärtom, selektivt."
+
+msgid "Categories to Tags Converter Importer"
+msgstr "Importerare för Kategori till Etikett-konverterare"
+
+msgid "http://wordpress.org/extend/plugins/wpcat2tag-importer/"
+msgstr "http://wordpress.org/extend/plugins/wpcat2tag-importer/"
+
+msgid "wordpressdotorg"
+msgstr "wordpressdotorg"

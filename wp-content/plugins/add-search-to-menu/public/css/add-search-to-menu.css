@@ -1,0 +1,70 @@
+li.search-menu {
+	position: relative;
+}
+
+li.search-menu a {
+	outline: 0;
+}
+
+li.search-menu a::before,
+li.search-menu a::after {
+	display: none !important;
+}
+
+li.search-menu.default form {
+	max-width: 300px;
+}
+
+li.search-menu.dropdown form {
+	display: none;
+	min-width: 300px;
+	max-width: 100%;
+	position: absolute;
+	right: 0;
+	top: 100%;
+	z-index: 9;
+}
+
+li.search-menu.full-width-menu form,
+li.search-menu.sliding form {
+	min-width: 0 !important;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	top: 10%;
+	width: 0;
+	z-index: 9;
+
+}
+
+li.search-menu.full-width-menu.active-search {
+	bottom: 20%;
+	position: absolute;
+	right: 0;
+	width: 100%;
+}
+
+li.search-menu.full-width-menu.active-search a > svg {
+	display: none;
+}
+
+li.search-menu form .screen-reader-text {
+	display: none;
+}
+
+li.search-menu form label {
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and ( max-width: 910px ) {
+	li.search-menu form {
+		left: 0;
+		min-width: 50%;
+		right: auto;
+	}
+
+	li.search-menu.full-width-menu.active-search {
+		position: relative;
+	}
+}
